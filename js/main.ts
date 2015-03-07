@@ -1,5 +1,5 @@
 /**
- * Created by aksharpatel on 05/03/15.
+ * Created by akshar patel on 05/03/15.
  */
 /// <reference path="../bower_components/phaser/typescript/phaser.d.ts"/>
 /// <reference path="GameState.ts"/>
@@ -14,5 +14,5 @@ module ToddlerGame{
 }
 
 window.onload = function(){
-    var game = new ToddlerGame.Game();
+    new ToddlerGame.Game();
 };
